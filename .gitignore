@@ -218,3 +218,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local environment files and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded datasets, model weights, and checkpoints
+**/data/
+**/datasets/
+**/raw_data/
+**/models/
+**/checkpoints/
+**/model_cache/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Caches, logs, and temporary files
+**/.cache/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
